@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @lftme.user %>
+</p>
+
+<p>
+  <strong>Request:</strong>
+  <%= @lftme.request %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @lftme.location %>
+</p>
+
+<%= link_to 'Edit', edit_lftme_path(@lftme) %> |
+<%= link_to 'Back', lftmes_path %>
